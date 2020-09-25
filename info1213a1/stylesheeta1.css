@@ -1,0 +1,89 @@
+
+.header {
+    background-color: #111111;
+    position: fixed;
+    top: 0;
+    width: 110%;
+    overflow: auto;
+    left: 0px;
+    right: 0px;
+}
+
+.header a {
+    float: left;
+    display: block;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a:hover {
+    background: #ff4655;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+body {
+    background-color: #ece8e1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f1923;
+    text-align: justify;
+    width: 80em;
+}
+
+table, tr, td {
+    border: 5px solid #0f1923;
+    border-collapse: collapse;
+}
+
+hr {
+    border: 10px solid #dbd9d2;
+    border-radius: 2px;
+
+}
+
+blockquote p {
+    padding: 10px;
+    background: #0f1923;
+    color: white;
+    border-radius: 5px;
+}
+
+#important {
+    background-color: #ff4655;
+    border-radius: 5px;
+}
+
+#important p {
+    color: white;
+    padding: 10px;
+}
+
+div ul {
+    background-color: #ff4655;
+    border-radius: 10px;
+    color: white;
+}
+
+div + ul {
+    background-color: #0f1923;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type=text] {
+    border: 5px #0f1923;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: 5px #ff4655;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff4655;
+}
